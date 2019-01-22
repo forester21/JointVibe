@@ -1,0 +1,54 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Stop"
+      },
+      "color": "negative"
+    },
+      {
+        "action": {
+          "type": "text",
+          "label": "Play"
+        },
+        "color": "positive"
+      }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "Previous"
+      },
+      "color": "primary"
+    },
+      {
+        "action": {
+          "type": "text",
+          "label": "Next"
+        },
+        "color": "primary"
+      }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "-15 sec"
+      },
+      "color": "primary"
+    },
+      {
+        "action": {
+          "type": "text",
+          "label": "+15 sec"
+        },
+        "color": "primary"
+      }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "Show playlist"
+      },
+      "color": "default"
+    }]
+  ]
+}

@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
  * Created by FORESTER on 02.07.18.
  */
 @Configuration
-public class WebConfig implements WebMvcConfigurer {
+public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
